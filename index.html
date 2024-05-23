@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="*">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav >
+            <h1>AluraGeek</h1>
+        </nav>
+    </header>
+    <div class="contenido">
+        <ul class="videos__container" alt="pruductos alura" data-lista></ul>
+            <form class="container__formulario" data-formulario>
+                <h2 class="formulario__titulo">Sube tu producto!</h3><br>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="nombre">Nombre del producto</label>
+                        <input name="nombre" class="campo__escrita" required placeholder="Play Station 4" 
+                            id='nombre' data-nombre/>
+                    </div>
+    
+                    <div class="formulario__campo" >
+                        <label class="campo__etiqueta" for="descripcion">Descripcion</label>
+                        <input name="descripcion" class="campo__escrita" required placeholder="Nuevo"
+                            id='descripcion' data-descripcion/>
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="precio">Precio</label>
+                        <input name="precio" class="campo__escrita" required placeholder="500.000"
+                            id='precio' data-precio/>
+                    </div>
+    
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagen">Imagen del producto</label>
+                        <input name="imagen" class="campo__escrita" required placeholder="Inserta la URL de la imagen"
+                            id='imagen' data-imagen/>
+                    </div>
+    
+                    <div class="botones">
+                        <input class="formulario__boton" type="submit" />
+                        <button class="formulario__boton" type="reset" id="refrescar">Limpiar</button>
+                    </div>
+                    
+            </form>
+            
+    </div>
+    
+    <script src="./js/mostrarProducto.js" type="module"></script>
+    <script src="./js/buscarProducto.js" type="module"></script>
+    <script src="../js/crearProducto.js" type="module"></script>
+
+</body>
+
+</html>

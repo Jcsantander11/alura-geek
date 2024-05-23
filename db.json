@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "id": "6d1a",
+      "precio": "500000",
+      "descripcion": "Usado - como nuevo",
+      "nombre": "Nintendo Switch",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nintendo-Switch-wJoyCons-BlRd-Standing-FL.png"
+    },
+    {
+      "id": "052a",
+      "precio": "600000",
+      "descripcion": "Nueva",
+      "nombre": "Play Station 4",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PS4-Console-wDS4.jpg"
+    },
+    {
+      "id": "3f16",
+      "precio": "400000",
+      "descripcion": "Usado",
+      "nombre": "Xbox One",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/05/Microsoft-Xbox-One-Console-Set-wKinect.jpg"
+    },
+    {
+      "id": "3979",
+      "precio": "300000",
+      "descripcion": "Nuevo",
+      "nombre": "Wii",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/83/Wii_console.png"
+    }
+  ]
+}
